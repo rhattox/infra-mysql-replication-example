@@ -1,0 +1,22 @@
+# Vagrant
+/.vagrant/
+
+# Ignore Vagrant environment files
+.env
+
+# Ignore Vagrant logs
+log/
+
+# Ignore Vagrant provisioning scripts
+provisioning/
+
+# Ignore VirtualBox files
+*.vbox
+*.vbox-prev
+*.vdi
+*.vmdk
+*.vagrant
+
+# Ignore Vagrant SSH keys
+.vagrant.d/insecure_private_key
+.vagrant.d/private_key
